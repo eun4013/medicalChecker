@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>의료광고법·약사법 문구 검사기</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+     <div class="container">
+    <h1>🩺 의료광고법·약사법 문구 검사기</h1>
+    <p class="desc">검사할 문구를 입력하고 <b>검사하기</b> 버튼을 눌러보세요.</p>
+
+    <textarea id="inputText" placeholder="예: 여드름 치료에 100% 효과가 있습니다."></textarea>
+    <button id="checkBtn" onclick="checkText()">검사하기</button>
+
+    <p class="note">전문 의약품은 제품이름으로 광고하면 안됨!!!!!</p>
+    <p class="note">의료기기는 이름으로 광고 가능!!</p>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
